@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    font-family: "Inter";
+}
+
+#menu-superior{
+    background-color:#303030;
+    color: #FFFFFF;
+}
+
+#titulo-menusuperior{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    padding: 150px 0px 25px 75px;
+}
+
+#texto-menusuperior{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    padding: 0px 0px 150px 75px;
+}
+
+#menu-informacional{
+    display: grid;  
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    background-color: #F9F9F9;
+    color: black;
+}
+
+.infos{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    padding: 25px;
+}
+
+.titulo-informacional{
+    font-size: 40px;
+}
+
+.texto-informacional{
+    font-size: 20px;
+}
+
+#empreendimentos{
+    margin-left: 150px;
+}
+
+#menu-historia{
+    display: grid;  
+    grid-auto-flow: column;
+    columns: auto;
+    color: black;
+}
+
+#historia{
+    margin: 275px 0px 0px 75px;
+}
+
+#titulo-historia{
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+#texto-historia{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;    
+}
+#imagem{
+    margin: 75px 0px 75px 0px;
+}
+
+#formulario{
+    background-color: #303030;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#titulo-formulario{
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+input{
+    width: 450px;
+    height: 60px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-size: 24px;
+    font-family: "Raleway";
+}
+
+button{
+    margin-top: 25px;
+    margin-bottom: 75px;
+    width: 286px;
+    height: 74px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #C07212;
+    color: white;
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e78610;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #533107;
+    transition-duration: 0.7s;
+}
